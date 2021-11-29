@@ -1,0 +1,84 @@
+.calculator{
+    display: grid;
+    grid-template-rows: 200px auto;
+    width: 500px;
+    height: 700px;
+    background-color: lightgrey;
+}
+.result{
+    width: 450px;
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    border-radius: 3%;
+    align-self: center;
+    margin: 0 auto;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    column-gap: 40px;
+    height: 480px;
+    text-align: center;
+}
+.plus, .minus, .multiply, .share{
+  background-color: white;
+  font-size: 30px;
+  border-radius: 10%;
+  border: 1px solid grey;
+  width: 75px;
+  height: 80px;
+  color: blue;
+}
+.seven, .four, .one, .zero, .eight, .five, .two, .point, .nine, .six, .three{
+  background-color: white;
+  font-size: 40px;
+  border-radius: 10%;
+  border: 1px solid grey;
+  width: 75px;
+  height: 80px;
+  color: black;
+}
+.column1{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    row-gap: 10px;
+    height: 480px;
+}
+.column2{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    row-gap: 10px;
+    height: 480px;
+}
+.column3{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    row-gap: 10px;
+    height: 480px;
+}
+.column4{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    row-gap: 10px;
+    height: 480px;
+}
+.red{
+  background-color: red;
+  font-size: 30px;
+  border-radius: 10%;
+  border: 1px solid grey;
+  width: 75px;
+  height: 80px;
+  color: white;
+}
+.blue{
+  background-color: blue;
+  font-size: 30px;
+  border-radius: 10%;
+  border: 1px solid grey;
+  width: 75px;
+  height: 350px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

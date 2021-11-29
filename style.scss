@@ -1,0 +1,60 @@
+@import "mixins";
+
+.calculator{
+    display: grid;
+    grid-template-rows: 200px auto;
+    width: 500px;
+    height: 700px;
+    background-color: lightgrey;
+}
+.result{
+    width: 450px;
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    border-radius: 3%;
+    align-self: center;
+    margin: 0 auto;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    column-gap: 40px;
+    text-align: center;
+}
+.plus .minus .multiply .share{
+    @include button(white, 30px, 10%, 1px solid grey, 75px, 80px, blue)
+}
+.seven .four .one .zero .eight .five .two .point .nine .six .three{
+    @include button(white, 30px, 10%, 1px solid grey, 75px, 80px, black)
+}
+.column1{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    row-gap: 10px;
+    height: 480px;
+}
+.column2{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    row-gap: 10px;
+    height: 480px;
+}
+.column3{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    row-gap: 10px;
+    height: 480px;
+}
+.column4{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    row-gap: 10px;
+    height: 480px;
+}
+.red{
+    @include button(red, 30px, 10%, 1px solid grey, 75px, 80px, white)
+}
+.blue{
+    @include button(blue, 30px, 10%, 1px solid grey, 75px, 500px, white)
+}
